@@ -1,0 +1,26 @@
+const express = require('express');
+
+const app = express();
+
+app.set('view engine', 'pug');
+app.use('/static', express.static('public'));
+
+const mainRoutes = require('./routes');
+app.use(mainRoutes);
+
+app.use((req, res, next) => {
+	const err = new Error('Not Found');
+	err.status = 404
+	next(err);
+});
+
+app.use((err, req, res, next) => {
+	res.locals.error = err;
+   const status = res.status;
+   // console.log(status)
+	res.render('error');
+})
+
+app.listen(3000, () => {
+   console.log('The application is running on localhost:3000!')
+})

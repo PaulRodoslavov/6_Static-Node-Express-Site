@@ -1,0 +1,95 @@
+{
+   "projects": [
+      {
+         "id": "0",
+         "project_name": "Wheel of Success",
+         "description": "A hangman-style game where the user tries to guess a mystery phrase letter by letter. Guesses can be made by clicking on the onscreen keys or typing on a computer keyboard. Correct guesses result in the letter being displayed in the phrase and in navy on the keyboard. Incorrect guesses turn the letter orange in the keyboard and remove one of the user's five lives.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "OOP"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/4.OOP_Game_Show_App/",
+         "github_link": "https://github.com/PaulRodoslavov/4.OOP_Game_Show_App",
+         "image_urls": [
+            "img/wheel_1.jpg",
+            "img/wheel_2.jpg",
+            "img/wheel_3.jpg",
+            "img/wheel_4.jpg"
+         ]
+      },
+      {
+         "id": "1",
+         "project_name": "Web App Dashboard",
+         "description": "In this project, I built an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involved creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "JS",
+            "AJAX"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/-9-Web-App-Dashboard/",
+         "github_link": "https://github.com/PaulRodoslavov/-9-Web-App-Dashboard",
+         "image_urls": [
+            "img/dashboard_1.jpg",
+            "img/dashboard_2.jpg",
+            "img/dashboard_3.jpg"
+         ]
+      },
+      {
+         "id": "2",
+         "project_name": "Employee Directory",
+         "description": "An employee directory that displays information from twelve random people via an API request. The directory is searchable and displays results in real time. Clicking on an employee's profile brings up a modal window with more detailed information. Employees' modal windows can be scrolled through by clicking the 'previous' or 'next' buttons onscreen or by using the computer's arrow keys.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "AJAX"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/5_Public-API-Requests/",
+         "github_link": "https://github.com/PaulRodoslavov/5_Public-API-Requests",
+         "image_urls": [
+            "img/directory_1.jpg",
+            "img/directory_2.jpg",
+            "img/directory_3.jpg",
+            "img/directory_4.jpg"
+         ]
+      },
+      {
+         "id": "3",
+         "project_name": "Landing Page",
+         "description": "This project is a responsive, mobile-first website using Flexbox and Sass.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "SASS"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/-5-One-page-site-SASS/",
+         "github_link": "https://github.com/PaulRodoslavov/-5-One-page-site-SASS",
+         "image_urls": [
+            "img/landing_1.jpg",
+            "img/landing_2.jpg",
+            "img/landing_3.jpg"
+         ]
+      },
+      {
+         "id": "4",
+         "project_name": "Interactive Form",
+         "description": "An interactive form with text fields, drop-down menus and checkboxes. Different t-shirt colors are displayed depending on which design is selected, a new text field appears if the user selects 'other' in the job field drop-down menu, and once a user selects an activity all other activities at the same time are disabled to avoid time conflicts. A running total of event costs is displayed beneath the activities. Real-time error messages are displayed if information is incorrectly entered. The form will not submit if there are any errors, and the submit button's appearance changes to alert the user of problems.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "jQuery"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/3.Interactive_Form/",
+         "github_link": "https://github.com/PaulRodoslavov/3.Interactive_Form",
+         "image_urls": [
+            "img/form_1.jpg",
+            "img/form_2.jpg",
+            "img/form_3.jpg"
+         ]
+      }
+   ]
+}
