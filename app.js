@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+const port = process.env.PORT || 8000;
+app.use(express.static(__dirname));
 	// Setup pug
 
 app.set('view engine', 'pug');
@@ -15,6 +17,7 @@ app.use(mainRoutes);
 app.use((req, res, next) => {
 	const err = new Error('Not Found');
 	err.status = 404
+	// console.log("Error: " + err.message);
 	next(err);
 });
 
@@ -22,11 +25,10 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
 	res.locals.error = err;
    const status = res.status;
-   // console.log(status)
 	res.render('error');
 })
 
 	//run app at localhost:3000
-app.listen(3000, () => {
-   console.log('The application is running on localhost:3000!')
+app.listen(port, () => {
+   console.log('The application is running')
 })
