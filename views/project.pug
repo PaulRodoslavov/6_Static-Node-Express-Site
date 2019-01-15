@@ -17,9 +17,10 @@ block content
         ul
          each val in project.technologies
           li=val
-
-        a.button.expanded(href=project.live_link) Live Demo
-        a.button.expanded(href=project.github_link) GitHub Repo
+          
+         if project.live_link
+          a.button.expanded(href=project.live_link) Live Demo
+         a.button.expanded(href=project.github_link) GitHub Repo
         
     each val, index in project.image_urls
       if index > 0

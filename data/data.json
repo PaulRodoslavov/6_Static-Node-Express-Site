@@ -58,6 +58,47 @@
       },
       {
          "id": "3",
+         "project_name": "School database",
+         "description": "In this project, I've created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses in the database. Then I used React to create a client for my existing school database. In addition, the project requires users to create an account and sign in to make changes to the database.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "React.js",
+            "Node.js",
+            "MongoDB"
+         ],
+         "github_link": "https://github.com/PaulRodoslavov/10_Full-Stack-App-with-React-and-a-REST-API",
+         "image_urls": [
+            "img/pr-10.png",
+            "img/pr-10-0.png",
+            "img/pr-10-2.png",
+            "img/pr-10-1.png"
+         ]
+      },
+      {
+         "id": "4",
+         "project_name": "Library Manager",
+         "description": "I've created an application, local library to help manage collection of books. The user uses a simple SQLite database and enters data in manually. In this project, I've built a web application included pages to list, add, update, and delete books. I implemented a dynamic website using JavaScript, Node.js, Express, Pug, and the SQLite.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "AJAX",
+            "Node.js",
+            "Pug",
+            "SQLite"
+         ],
+         "github_link": "https://github.com/PaulRodoslavov/8_sql_library_manager",
+         "image_urls": [
+            "img/pr-8.png",
+            "img/pr-8.png",
+            "img/pr-8-1.png"
+         ]
+      },
+      {
+         "id": "5",
          "project_name": "Landing Page",
          "description": "This project is a responsive, mobile-first website using Flexbox and Sass.",
          "technologies": [
@@ -74,7 +115,7 @@
          ]
       },
       {
-         "id": "4",
+         "id": "6",
          "project_name": "Interactive Form",
          "description": "An interactive form with text fields, drop-down menus and checkboxes. Different t-shirt colors are displayed depending on which design is selected, a new text field appears if the user selects 'other' in the job field drop-down menu, and once a user selects an activity all other activities at the same time are disabled to avoid time conflicts. A running total of event costs is displayed beneath the activities. Real-time error messages are displayed if information is incorrectly entered. The form will not submit if there are any errors, and the submit button's appearance changes to alert the user of problems.",
          "technologies": [
