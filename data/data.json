@@ -2,62 +2,6 @@
    "projects": [
       {
          "id": "0",
-         "project_name": "Wheel of Success",
-         "description": "A hangman-style game where the user tries to guess a mystery phrase letter by letter. Guesses can be made by clicking on the onscreen keys or typing on a computer keyboard. Correct guesses result in the letter being displayed in the phrase and in navy on the keyboard. Incorrect guesses turn the letter orange in the keyboard and remove one of the user's five lives.",
-         "technologies": [
-            "HTML",
-            "CSS",
-            "Java Script",
-            "OOP"
-         ],
-         "live_link": "https://paulrodoslavov.github.io/4.OOP_Game_Show_App/",
-         "github_link": "https://github.com/PaulRodoslavov/4.OOP_Game_Show_App",
-         "image_urls": [
-            "img/wheel_1.jpg",
-            "img/wheel_2.jpg",
-            "img/wheel_3.jpg",
-            "img/wheel_4.jpg"
-         ]
-      },
-      {
-         "id": "1",
-         "project_name": "Web App Dashboard",
-         "description": "In this project, I built an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involved creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.",
-         "technologies": [
-            "HTML",
-            "CSS",
-            "Java Script",
-            "AJAX"
-         ],
-         "live_link": "https://paulrodoslavov.github.io/-9-Web-App-Dashboard/",
-         "github_link": "https://github.com/PaulRodoslavov/-9-Web-App-Dashboard",
-         "image_urls": [
-            "img/dashboard_1.jpg",
-            "img/dashboard_2.jpg",
-            "img/dashboard_3.jpg"
-         ]
-      },
-      {
-         "id": "2",
-         "project_name": "Employee Directory",
-         "description": "An employee directory that displays information from twelve random people via an API request. The directory is searchable and displays results in real time. Clicking on an employee's profile brings up a modal window with more detailed information. Employees' modal windows can be scrolled through by clicking the 'previous' or 'next' buttons onscreen or by using the computer's arrow keys.",
-         "technologies": [
-            "HTML",
-            "CSS",
-            "Java Script",
-            "AJAX"
-         ],
-         "live_link": "https://paulrodoslavov.github.io/5_Public-API-Requests/",
-         "github_link": "https://github.com/PaulRodoslavov/5_Public-API-Requests",
-         "image_urls": [
-            "img/directory_1.jpg",
-            "img/directory_2.jpg",
-            "img/directory_3.jpg",
-            "img/directory_4.jpg"
-         ]
-      },
-      {
-         "id": "3",
          "project_name": "School database",
          "description": "In this project, I've created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses in the database. Then I used React to create a client for my existing school database. In addition, the project requires users to create an account and sign in to make changes to the database.",
          "technologies": [
@@ -78,7 +22,7 @@
          ]
       },
       {
-         "id": "4",
+         "id": "1",
          "project_name": "Library Manager",
          "description": "I've created an application, local library to help manage collection of books. The user uses a simple SQLite database and enters data in manually. In this project, I've built a web application included pages to list, add, update, and delete books. I implemented a dynamic website using JavaScript, Node.js, Express, Pug, and the SQLite.",
          "technologies": [
@@ -95,6 +39,62 @@
             "img/pr-8.png",
             "img/pr-8.png",
             "img/pr-8-1.png"
+         ]
+      },
+      {
+         "id": "2",
+         "project_name": "Wheel of Success",
+         "description": "A hangman-style game where the user tries to guess a mystery phrase letter by letter. Guesses can be made by clicking on the onscreen keys or typing on a computer keyboard. Correct guesses result in the letter being displayed in the phrase and in navy on the keyboard. Incorrect guesses turn the letter orange in the keyboard and remove one of the user's five lives.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "OOP"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/4.OOP_Game_Show_App/",
+         "github_link": "https://github.com/PaulRodoslavov/4.OOP_Game_Show_App",
+         "image_urls": [
+            "img/wheel_1.jpg",
+            "img/wheel_2.jpg",
+            "img/wheel_3.jpg",
+            "img/wheel_4.jpg"
+         ]
+      },
+      {
+         "id": "3",
+         "project_name": "Web App Dashboard",
+         "description": "In this project, I built an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involved creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "AJAX"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/-9-Web-App-Dashboard/",
+         "github_link": "https://github.com/PaulRodoslavov/-9-Web-App-Dashboard",
+         "image_urls": [
+            "img/dashboard_1.jpg",
+            "img/dashboard_2.jpg",
+            "img/dashboard_3.jpg"
+         ]
+      },
+      {
+         "id": "4",
+         "project_name": "Employee Directory",
+         "description": "An employee directory that displays information from twelve random people via an API request. The directory is searchable and displays results in real time. Clicking on an employee's profile brings up a modal window with more detailed information. Employees' modal windows can be scrolled through by clicking the 'previous' or 'next' buttons onscreen or by using the computer's arrow keys.",
+         "technologies": [
+            "HTML",
+            "CSS",
+            "Java Script",
+            "AJAX"
+         ],
+         "live_link": "https://paulrodoslavov.github.io/5_Public-API-Requests/",
+         "github_link": "https://github.com/PaulRodoslavov/5_Public-API-Requests",
+         "image_urls": [
+            "img/directory_1.jpg",
+            "img/directory_2.jpg",
+            "img/directory_3.jpg",
+            "img/directory_4.jpg"
          ]
       },
       {
